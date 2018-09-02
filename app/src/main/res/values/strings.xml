@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">avocado</string>
+    <string name="title_activity_chart">ChartActivity</string>
+    <string name="facebook_application_id" translatable="false">314483105975364</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb314483105975364</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signin_email">회원가입 및 이메일 로그인</string>
+    <string name="signin_google">Google으로 로그인</string>
+    <string name="signin_facebook">Facebook으로 로그인</string>
+    <string name="signin_twitter">Twitter으로 로그인</string>
+    <string name="signup_complete">회원가입 성공</string>
+    <string name="signin_complete">로그인 성공</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string-array name="image_ids">
+        <item>@drawable/snack1</item>
+        <item>@drawable/snack2</item>
+        <item>@drawable/snack3</item>
+        <item>@drawable/snack4</item>
+        <item>@drawable/snack5</item>
+        <item>@drawable/snack6</item>
+        <item>@drawable/snack7</item>
+        <item>@drawable/snack8</item>
+        <item>@drawable/snack9</item>
+        <item>@drawable/snack10</item>
+        <item>@drawable/snack12</item>
+        <item>@drawable/snack13</item>
+        <item>@drawable/snack14</item>
+        <item>@drawable/snack15</item>
+        <item>@drawable/snack16</item>
+        <item>@drawable/snack17</item>
+        <item>@drawable/snack18</item>
+        <item>@drawable/snack19</item>
+        <item>@drawable/snack20</item>
+    </string-array>
+    <string name="title_activity_comment">CommentActivity</string>
+</resources>

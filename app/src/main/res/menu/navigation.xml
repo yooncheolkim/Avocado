@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_snack"
+        android:icon="@drawable/ic_snack_on"
+        android:title="Snack" />
+
+    <item
+        android:id="@+id/navigation_toy"
+        android:icon="@drawable/ic_toy_on"
+        android:title="Toy" />
+
+    <item
+        android:id="@+id/navigation_lipstick"
+        android:icon="@drawable/ic_lipstick_on"
+        android:title="Lipstick" />
+
+</menu>

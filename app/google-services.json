@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "202381754502",
+    "firebase_url": "https://planethackathon.firebaseio.com",
+    "project_id": "planethackathon",
+    "storage_bucket": "planethackathon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202381754502:android:5652029eb3fc52d7",
+        "android_client_info": {
+          "package_name": "com.planet.avocado"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202381754502-3q0d76cr8s8b4d88c7rb4jh1ellvtpjd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.planet.avocado",
+            "certificate_hash": "cdff9d3c20146d7bc2ade786a9557952294ac46d"
+          }
+        },
+        {
+          "client_id": "202381754502-s37851o7dn9id7qbjlb6imtp10egpm2o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDoEXXOYCbxQSIRbhDJxWQBxnKT5np8gE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202381754502-s37851o7dn9id7qbjlb6imtp10egpm2o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

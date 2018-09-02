@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    android:id="@+id/layout_login"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b8eeca"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/drawee_logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/avocado"
+        android:layout_marginTop="109dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#80000000"
+        android:shadowRadius="1"
+        android:textSize="50sp"
+        android:textColor="#1a804e"
+        android:letterSpacing="-0.02"
+        android:gravity="center_horizontal"
+        android:text="아보카도"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/drawee_logo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#80000000"
+        android:shadowRadius="1"
+        android:textSize="16sp"
+        android:textColor="#1a804e"
+        android:letterSpacing="-0.03"
+        android:lineSpacingExtra="4sp"
+        android:gravity="center_horizontal"
+        android:text="“포장은 간단히 해주세요”\n한마디가 지구를 살려요"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/layout_facebookLoginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:background="#4267b2"
+        android:minWidth="297dp"
+        android:foreground="@drawable/sel_ripple_btn"
+        android:layout_marginBottom="8dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/layout_googleLoginBtn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        >
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/iv_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            app:srcCompat="@drawable/ic_img_facebbook"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <TextView
+            android:id="@+id/tv_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:letterSpacing="-0.02"
+            android:gravity="center_horizontal"
+            android:text="페이스북으로 로그인"
+            app:layout_constraintStart_toEndOf="@+id/iv_facebook"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/layout_googleLoginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:foreground="@drawable/sel_ripple_btn"
+        android:background="#dd4f44"
+        android:layout_marginBottom="30dp"
+        android:minWidth="297dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        >
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/iv_google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            app:srcCompat="@drawable/ic_img_google"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <TextView
+            android:id="@+id/tv_google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:letterSpacing="-0.02"
+            android:gravity="center_horizontal"
+            android:text="구글로 로그인"
+            app:layout_constraintStart_toEndOf="@+id/iv_google"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>
